@@ -1,0 +1,153 @@
+.blue {
+    color: #0086ff !important;
+}
+
+.hide {
+    display: none;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 98;
+}
+
+.navigation {
+    width: 100%;
+    background: white;
+    z-index: 99;
+}
+
+.content {
+    height: 60px;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.content>div {
+    height: 60px;
+}
+
+/*所有菜单*/
+.menus {
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+/*子菜单*/
+.menu {
+    position: relative;
+    color: #4f5258;
+
+}
+
+.menu:hover {
+    color: #0086ff;
+    cursor: pointer;
+}
+
+.select-menu {
+    content: "";
+    position: absolute;
+    background: #0085ff;
+    width: 30px;
+    height: 3px;
+    /* left: 50%; */
+    bottom: 0px;
+
+}
+
+/*悬浮菜单*/
+.float-menus {
+    position: absolute;
+    background: #f7f7fb;
+    width: 100%;
+    padding: 60px 0px;
+    top: 60px;
+    animation: mymove 1s;
+    z-index: -1;
+}
+
+@keyframes mymove {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 60px;
+    }
+}
+
+.float-menus>div {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list-item {
+    width: 20%;
+    height: 60px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+
+.animate {
+    position: absolute;
+    background: #0085ff;
+    width: 30px;
+    height: 3px;
+    left: 0px;
+    top: 50px;
+}
+
+/*二级菜单选中项*/
+.select-item>.animate {
+    width: 100% !important;
+}
+
+/*底部栏*/
+.bottom-bar {
+    width: 100%;
+    /* height: 196px; */
+    padding-top: 56px;
+    background: #121b34;
+}
+
+.bottom-bar>div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-list {
+    /* display: flex;
+    flex-direction: column; */
+    color: #6e768e;
+}
+
+.service-list>div {
+    margin: 0px 0px 21px 0px;
+}
+
+.bottom-bar2 {
+    background: #121b34;
+    color: #6e768e;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid hsla(0, 0%, 100%, .08);
+}
+
+.info-phone {
+    font-size: 24px;
+    color: #4385f4;
+    line-height: .8;
+    font-weight: 700;
+}

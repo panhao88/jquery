@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- 轮播图 -->
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+    <script src="../js/swiper-3.4.2.min.js"></script>
+
+    <!-- 引用头部 -->
+    <link rel="stylesheet" href="../css/top/aboutMe.css">
+    <link rel="stylesheet" href="../css/top/base.css">
+
+    <!-- //引用自己的样式 -->
+    <link rel="stylesheet" href="../css/OA.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/app.css">
+
+    <!-- 引用自己的js -->
+    <script src="../js/OA.js" type="text/javascript"></script>
+
+    <title>OA系统定制开发-成都码邻蜀科技</title>
+</head>
+
+<body>
+    <div>
+        <!--导航-->
+        <div class="nav">
+            <div class="navigation">
+                <div class="content flex-box">
+                    <div class="flex-item"><img src="../image/logo.png" /></div>
+                    <div class="menus flex-box flex-1"></div>
+                </div>
+            </div>
+            <!--悬浮二级菜单-->
+            <div class="float-menus hide">
+                <div class=" list">
+                    <div class="list-item select-item">人力外包服务
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">移动app开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">小程序开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">网站开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">OA系统开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">ERP系统开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">CRM系统开发
+                        <div class="animate"></div>
+                    </div>
+                    <div class="list-item">公众号开发
+                        <div class="animate"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height:60px;"></div>
+        <!-- 轮播图 -->
+        <div class="swiper-container pc" id="swiper1">
+            <div class="swiper-wrapper" id="swiper2">
+            </div>
+        </div>
+        <div class="yd">
+            <img src="http://mlsadm.mlscd.cn/upload_resource/20200804/d871b93139cadef5720a43c60d7c1e9c.jpg"
+                style="width: 100vw;" alt="">
+        </div>
+        <!-- 多端协作 -->
+        <div style="margin-top:40px;width:100vw">
+            <div class="font1" f18>多端协作</div>
+            <div f14 style="font-size: 18px;text-align: center;color: #999;margin: 26px 0 45px;">电脑办公+移动办公的一体自动化办公系统
+            </div>
+        </div>
+        <div style="display: flex;width: 80vw;margin: 0 auto;flex-wrap: wrap;">
+            <div class="bg-1" style="width: 50vw;">
+                <img src="../image/11.1.png" alt="">
+            </div>
+            <div class="cooperation-item"
+                style="width: 50vw;display: flex;justify-content: center; flex-direction: column;margin-left: 20px;">
+                <div style="display: flex;">
+                    <div>
+                        <img src="../image/11.2.png" alt="">
+                    </div>
+                    <div style="margin-left: 20px;margin-top: 10px;">
+                        <div f18 style="font-size: 22px;color: #1a1a1a;">电脑PC端</div>
+                        <div f14 style="font-size: 16px;color: #666;width: 90%;margin-top: 20px;">
+                            更好的前端展示效果，更多强大的后台功能，助力您生意。
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex;margin-top:80px;">
+                    <div>
+                        <img src="../image/11.3.png" alt="">
+                    </div>
+                    <div style="margin-left: 20px;margin-top: 10px;">
+                        <div f18 style="font-size: 22px;color: #1a1a1a;">移动端</div>
+                        <div f14 style="font-size: 16px;color: #666;width: 90%;margin-top: 20px;">
+                            舒心的浏览体验与更简便的操作流程，更能留住 客户。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 如果你遇到这些问题 -->
+        <div style="width: 100vw;height: 140px;background: white;"></div>
+        <div class="font1" f18>如果你遇到这些问题</div>
+        <div f14 style="font-size: 16px;color: #666;width: 100vw;margin-top: 20px;text-align: center;">
+            更好的前端展示效果，更多强大的后台功能，助力您生意。
+        </div>
+        <div
+            style="width: 80vw;margin: 0 auto;display: flex;justify-content: space-around;margin-top: 60px; flex-wrap: wrap;">
+            <div class="problem-item">
+                <div><img src="../image/1.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>成本不可控</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>办公成本不可量化，人力、物力、资金等各类费用居高不下。</div>
+            </div>
+
+            <div class="problem-item">
+                <div><img src="../image/2.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>沟通成本高</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>
+                    每次的沟通，需要耗费大量时间成本进行数据整理与统计。
+                </div>
+            </div>
+
+
+            <div class="problem-item">
+                <div><img src="../image/3.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>无规范的流程</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>
+                    繁琐的管理流程，让一个简单的问题变得复杂化，平白增加时间和人力成本。
+                </div>
+            </div>
+            <div class="problem-item">
+                <div><img src="../image/1.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>信息传导慢且繁杂</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>
+                    同一个通告，要经各层级由上到下多次转发，跨部门的沟通更是费劲。
+                </div>
+            </div>
+
+            <div class="problem-item">
+                <div><img src="../image/2.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>各类系统处理繁杂</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>
+                    各类不同系统处理起来更繁杂，没有配合度，需要更多人来共同完成。
+                </div>
+            </div>
+
+
+            <div class="problem-item">
+                <div><img src="../image/3.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>出差/在外办公无法监管</div>
+                <div style="margin:20px;font-size:14px; color: #666;" f12>
+                    出差/在外办公者，日常行踪和工作无法知晓具体完成情况。
+                </div>
+            </div>
+        </div>
+        <div style="width: 100vw;height: 60px;background-color: #ffffff;"></div>
+        <!-- OA自动化办公系统助力企业实现目标 -->
+        <div style="width: 100vw;height: 60px;background-color: #F7F8FB;"></div>
+        <div style="background: #F7F8FB;">
+            <div style="width:100vw">
+                <div class="font1" f18>OA自动化办公系统助力企业实现目标</div>
+                <div style="font-size: 18px;text-align: center;color: #999;margin: 26px 0 45px;" f14>国内权威的、专业的技术服务平台
+                </div>
+            </div>
+            <div class="target"
+                style="width: 80vw;margin: 0 auto;display: flex;justify-content: space-around;flex-wrap: wrap;">
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.1.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>严格控制成本</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>
+                            不论生产、管理等方面的人力、物力、时间、财力的成本管控，都能得到有效预估与控制。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.2.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>管理更方便</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>企业内部管理与业务管理都能在短时间内达效，让OA系统成为企业的得力助手。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.3.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>沟通及时协调更快</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>单位内部跨部门或跨区都可进行更好的协同协作，让效率得到提升和降低经营成本。
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="target"
+                style="width: 80vw;margin: 0 auto;display: flex;justify-content: space-around;margin-top: 60px;flex-wrap: wrap;">
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.4.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>内部管理规范化</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>通过提升单位内部的效率、执行力、信息及时性和准确率，从而达到管理流程规范。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.5.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>防止遗忘</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>自动跟踪项目，实时显示进度，防止遗忘。</div>
+                    </div>
+                </div>
+
+                <div class="target-item" style="width: 29%; display: flex;background: white;" class="box-sh">
+                    <div style="width: 30%;height: 100%; display: flex;justify-content: center;align-items: center;">
+                        <img src="../image/2.6.png" alt="">
+                    </div>
+                    <div style="width: 70%;">
+                        <div style="margin-left: 20px;margin-top: 20px;font-size:22px;color: #333;" f14>凝聚企业向心力</div>
+                        <div style="margin:20px;font-size:14px; color: #666;" f12>
+                            让整个公司人员可以围绕公司目 标展开协同办公。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100vw;height: 60px;background-color: #F7F8FB;"></div>
+        <!-- OA系统二次开发 -->
+        <div style="width: 100vw;padding-bottom: 60px;background-image: url('../image/15.1.jpg'); padding-top: 80px;">
+            <div style="font-size: 40px;color: white; text-align: center;font-weight: 700;" f18>OA系统二次开发</div>
+            <div f14 style="font-size: 18px;margin-top: 20px;margin-bottom: 60px;color: #999;text-align: center;">
+                通用的OA产品功能难以满足不同用户的个性化要求，OA产品+二次开发可以更好的解决用户需求</div>
+            <div style="width: 80%; margin: 0 auto;display: flex;justify-content: space-between;flex-wrap: wrap;">
+                <div class="shaw1"
+                    style=" text-align: center;padding: 10px 40px;padding-bottom: 50px;  width: 22%;background-color: white;box-shadow: -1px 5px 16px 0px rgba(105, 149, 202, 0.25);border-radius: 2px;">
+                    <div style="margin-top: 40px;"> <img src="../image/17.1.png" alt=""></div>
+                    <div class="font123" style="margin-top: 15px;font-size: 18px;font-weight: 700;" f14>已有OA功能修改</div>
+                    <div style="margin-top: 10px;font-size: 14px;color: #666;" f12>在承元OA已有功能的基础上，依据用户的要求进行个性化的调整和功能修改。
+                    </div>
+                </div>
+
+                <div class="shaw1"
+                    style=" text-align: center;padding: 10px 40px;padding-bottom: 50px;  width: 22%;background-color: white;box-shadow: -1px 5px 16px 0px rgba(105, 149, 202, 0.25);border-radius: 2px;">
+                    <div style="margin-top: 40px;"> <img src="../image/17.2.png" alt=""></div>
+                    <div class="font123" style="margin-top: 15px;font-size: 18px;font-weight: 700;" f14>新增模块的开发</div>
+                    <div style="margin-top: 10px;font-size: 14px;color: #666;" f12>依据用户的需求进行新增功能开发，并在承元OA统一的平台上运行和管理。
+                    </div>
+                </div>
+
+                <div class="shaw1"
+                    style=" text-align: center;padding: 10px 40px;padding-bottom: 50px;  width: 22%;background-color: white;box-shadow: -1px 5px 16px 0px rgba(105, 149, 202, 0.25);border-radius: 2px;">
+                    <div style="margin-top: 40px;"> <img src="../image/17.3.png" alt=""></div>
+                    <div class="font123" style="margin-top: 15px;font-size: 18px;font-weight: 700;" f14>OA和其他系统的集成</div>
+                    <div style="margin-top: 10px;font-size: 14px;color: #666;" f12>
+                        OA系统需要与其他系统进行接口开发和数据交换，如：OA与ERP，OA与财务系统等。
+                    </div>
+                </div>
+
+                <div class="shaw1"
+                    style=" text-align: center;padding: 10px 40px;padding-bottom: 50px;  width: 22%;background-color: white;box-shadow: -1px 5px 16px 0px rgba(105, 149, 202, 0.25);border-radius: 2px;">
+                    <div style="margin-top: 40px;"> <img src="../image/17.4.png" alt=""></div>
+                    <div class="font123" style="margin-top: 15px;font-size: 18px;font-weight: 700;" f14>OA办公和业务管理于一体
+                    </div>
+                    <div style="margin-top: 10px;font-size: 14px;color: #666;" f12>在承元OA中融入客户关系管理、企业订单和采购管理、项目管理等业务相关模块。
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- 开发流程 -->
+        <div class="ser_ser_ser">
+            <div class="wrap_ser">
+                <div class="title_font_ser" f18>开发流程</div>
+                <div class="hy_txt"></div>
+            </div>
+            <div class="el_step_head pc">
+                <ul class="time_list">
+                    <li class="time_list_li" style=" left: -10px;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADd0lEQVRYR+3YW4jUZRjH8c8zq4uaJCkRVLh50UUnQtKOKIgXZSF0I5J0Y3VT0QEp2f2v0pi7s2tBRUVmXUSEUBJk0EHonCFZZhAUHaysJLPSzlmTu2/8xwOuexibmQ0v5r39/5/3+c7vfZ7f+/wnHOMrjnE+TcB6T6ipYFPBehWoN37oGuxNU/UrYR4m15ukSvxubFCQaY+vj3x3MGBPOk3yNkKyWsG3owqYTMM1SMKFOmL74fkGA5bSWsyWzNAZu0YV7uDmq9LJ+ryPV2SxqBrgHjwgizv+F7iDSUppBW6SxYCSGkrBhBtksfoQYDGNM940e32uGOVRAS+l6/GQLAYwVQfsTlcLazABO/W70rJ456ggV6Uz7LMQfxjrCUvju2HjagIspsla7cB6yWOi0tkTZHFWVcBSmoWX8AuOw684VxY/DBlbE2BXOl/BZv1mWhZbdKcbhQeVjVWMfSNCdqf1QpuyC4xxkoJPJZnOuLdxgMU0UatvsFWyVsgkO3VGrs7Iqyc9hynaXWyFSQdOoksWvY0DzHfqTnOFR9GGv/CRskuqNksp3YpcrQ8xCadKluqMuxsLeHC3YmrVajrexBpZ3DyshF1phoKXKz+Gj/EnjsciYYGOeGZQbE01OBRBd7pFuA8LZPH0oFd60zn6vYZtCi7VHnmTsC61+MxTwnxhno54dUBswwBTCj1ysPzoZ+iIbYcS5bbS5w3sUDDnENzAU3gRM7EJu/W50/L4RMMA82S9aZJ+W/Gb5HHJRi1+lryO/CaaO4KdtFOxqxz0bIzX6kxlC2oz6uEKrZSepGLCf6O14ndhlzFmuz2+H8GQ3xU+0BHX6kptCrZLFgvjGwe4Mk3T4gvJbTL3KHlEuE5B21Aj0wDY7rRR+EfZZcaaI2yQLBSmNA6wJ02XbD1Q7BuU0hLcpWyiYuRWNPzab1vPo69yvGwx0Sy/V0auGu7ioVIVU0Gr/D6eSqVj5+NZWVxVzb8rz1em07W4Aj8ZZ50lsbexTZInKaUTkY9k+b28yThdlUS1roZ2ca0QI8X9B8A9kvt1RnE0OEbo7qMeWPORPx8GzhvWyxpNvr9c3sNb1Uf+/d60Gfnk/LDwY6N5BuyXnILFFS/tc5Hl8eXhz6t9dl6OE0YVMO9kXtCv07L46shczf9m6lW/qWBTwXoVqDe+WYP1Kvgv609vOMyFh6EAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="process_name">1、需求分析</div>
+                        <div class="process_describe">
+                            需求分析、业务流程梳理、目标定位、可行性预估
+                        </div>
+                    </li>
+                    <li class="time_list_li" style=" left: 16%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACpUlEQVRYR+2XO2hUQRSGv7PZuPjAxkcjahMLG0kTEdROq8CSKiCCb4JBEPFB9k4wrODejURF8AGiIEQQJArp1EZLQQuLFBHEwhRGtAoBTUL0yNxNFnH37p2bfbDFnuqy95z5v/nP3J0ZoclDmpyPFmC1HWo52HKwWgeqrY9egzm9j3ASaIspdgkj12PWlKRHA/q6CEygvHMSEzqB3YAi9OHJQ6e6kCQXQAWGMeI5CfmaAfLATyCFcAhPxpxqyyTVD1DoRXkEtKOkGZRXK4GsH2CC7SgdKC8Au0wOYORtXMj4gFldQ4pUidA8M2TlD8stTrAf5StKD3ADmMH+lpGJOJDxAC3cKr4Da8t8bhk8uYav/cC9EIgfGNlcP0A7ck5PkGBTicgiz7gsn7mpq5njGML6/3J6UPZgJNqUfwqjk32N9xWH2eOrdbW/voCqgs9FYINTm4RvGLkV5DYEsNC+L1CmxeWJp+lgK73yuzGATraFJDXEwaYHtC3+xRTCRgfWBdroZEAmG7cG430kCyQZYUBmlwCHgFMY2eYwuWJK4/5m7OSukCIrc+T0DAl24Mm5KNj4gL4eRwjbDV7jyfuKojk9iAT78yeM7KwtYKWtzioJo3hyNFT0qm4hwQdgHcJePLHPFSO+g2GHBSszzyxZsSeX0shqknbeIOwD+jDyIAquMOeoiLvV+ToK7CJBmoxMFYf3dQSCXegxRo5EyS6/rz1gXgdQhoFphO6gjb6mgXFgkgW6yIo9bTtF7QGtbF5Po9wJjv3CeRTrXhLowshHJ7KlJBdAt0uTBJekcTx5GYyd026Ep8Wzo3KYQXkSB85tDeb0bnA7KzgQFbcxcraYlNculOfAGEYuRBWXex/t4EpGrWFNC7BaM1sOthys1oFq65t+Df4FBkMOOI9Hw0gAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="process_name">2、需求确认</div>
+                        <div class="process_describe">
+                            需求功能清单确认，确认合作KPI及细节
+                        </div>
+                    </li>
+                    <li class="time_list_li" style=" left: 32%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADrUlEQVRYR+2YbYhUVRjHf/9x2imRdXGzD0ZQRBYuSQlGBPZqkNor9cHKXtwE60tRVOy968I13LlTFmjRm2sSRFIaSRFSEZWUqAgVGESyQSVRQYYfVlwn9z5xz942q52ZMzuNLDXPt+E89zm/839ezr0jJrlpkvPRAmw0Qy0FWwoS24UYJWABcMoEFCkD+xD9BNpW7/PVa7Df5iE+AYT4gIQf690AMQ24CjgNo5tevVxPjOqARXvfKScuIdDn9QT+i29kMyiwG6ODTk5npX7zjVUL8DDiIwJd6xuwol9sfRiPkWMuPdrnG68WoAGbCXW7b8CKfkW7D3iOHAvo0ae+8f4jgKKPhG4g73tyYBjxDKEOumeaqiDsAdbXAfeH6xJCbW8+YMAyHucMrA4FRzjKKv0wdqimKvi/aJLYVmAMIC4i0F7fcvHr4ims4Rh31QwqviHUwLh+kbVTYBE9bEFKx5eX+QGKnRjPekQcJNQ5zi+yPG3cinEDMIccOWA/8A4FXuEhHfGIV+ONumh/DuqSTcfcJpVtBkPuGitZFwmvA11u3MDXwDHgXHB38/fAMkKl93xV81OwniYp2fkk7gXjJKCPMhuINOQonrYCQyzFeBLRjlhEoA+rEf67gKNp/QI4C7gSuAxjKr2KHES/3YnoQryIsRvIUWY2kX6tBOkHKAYwescNIrYSaEMGcBviVeBBQq2jaDcC21zniv0kfAusdmux3YTxJiIi0OrGAGErsNad+O8mNhGoP7sttgDXUWbmWFqLlqbwF4y9iG46mevq1EzEfOfWQs1rDNC3BouWpjcZ2zC2M0m4GfEEcBBjIzl3oMFM8VTBxYQ6+UQBfgkcIdT8DGAp4h6MCxApRFp3rxHqpWz9DcT1hGqbKOAB4GcC5nsN19jexriCaZzK/TpKbJeTcA3iFqAdYxM5PibQu1lJfIWl1a05EwWMgR7geUZYS55D4wbKU+YRHaZoK4EXMJa7b481djFTXCffDXQg1rnuDbWDkl1Kwg7EUwR6eGKAkU2ljbeAhTXmaYK4mgK7GHa3RSH7jhmttaJtRMwi0OLsd2eW7lkknMcqpZmqMCRq7Jx12xJEeuLpFaIMkyfmUf3k0mq8BxxC3PuPT83R9fS+PhtxB4HSsVTRmvPXR2wLMTYDM4EDGJ+57k6HNMx2jWSsoFepT1VrDmC6ZWQdFHhg7GUhnaHGIDm2M8L6amk9nrh5gLWk8VxvAXoKdYKbpFGq455vpbhRMSe9gr8DphVoOGFZONsAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="process_name">3、项目报价</div>
+                        <div class="process_describe">
+                            确认周期、人员、及服务范围
+                        </div>
+                    </li>
+                    <li class="time_list_li" style=" left: 48%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADlElEQVRYR+2YX4hUVRzHP787625BaopJZaSBCq7WQ2JtQWFEWUpYUAnVQ1Q+7D70x6Lde0byQrv37qaEgSSUD/1xwdSCqA0j0JWihF76Swg9hNSSUcSa4e7qzjfmzjLMrs29d3JchObAPMz9nfs9n/M95/c7Z8a4wJtd4Hw0AM91hRoO/s8dDPUtsOJcXah4fxRYg7PDWTWT92AoASPAZ1kFE/otAhYDHTjbmVUvC+AxnC3MKli1X6guIGoA/mcnp8XBSNsQV2eCbKaD5+z3ct9pAQz1DXBtJkCPhXTZsekFDDSLFnKZAEcZJrBCuW+32vB4BfE4efsukwakXBZKZaY+WZyVaEq/2spM0YUclySMdQbfBifFI80BZtPCcTbZqVo5awNM34PDOLuUSIsRm4B7gSsqoL4C3mGMHQR2MgtsbYA9egyPy6oKi+JRVvxsB75HvI34AvEnTRSL/Z3xHoS/KfAgm+3zNMjaANPUInUiuhHP49iOWXEPT27bNI/TvIG4Hbgr7VyuH2C3bsCj6Eg7zl4vU/VoBcZGnD1VfrZXOX7kANDKGMsI7ES1udcGGKoV4+Ky2Di/stl+ib+H+gQo4GzNlCT5CHEbxjp8O1iO9ekqxjmKCMjb1noBTi3UvTjz2ar5nGYIsZ68DdCnZRS4HliJeAjxJMYWxC48fmCUQQIbIdRuYAnObqwX4NOIy8tiHoP4doBQa4EBcsyi0/4i1LuIW/F4E/gwLj2ROoBViEcRG8jbXiI9gXgJZ3PrA1hNJdIGxG6czYi7BGqmmbeAozjbEj/r05WMM4BxmC6eiRMo0n2IfThrOt+AqxGHgHk4+yMe7EVdQxMf49tSAs2lmdVAHmcryzCh2oEXcFZZKyex1pYk1aZZAvgN8Qh52zORNDcB/RjHEUsRezAewNn8igx/D6MFZ+vOr4OlLH4fWIDPqnj5unUzxi6MiIvYzwgbgWcZYwmBjdGr5RT4Ok6i4n6s0urjYFG8R9dhfAm8HGd2UuvVbAp8CpzCp+1fC/rE+1kAhzBuqTreDE6UL6alrHwNeBWPPF02fNZ7pYn0A3PI0Uan/Zw0lyyAiWbEZcTZPRUb/37ETiy+yu1HHME4iViAxx2IuzGOAA/j209p4smAPQowWhNEzlBgx1mHfp9mMk47RrGMLAdmAkMTP1/78fkgaVkrx2v8N5O2hGnxhoNpDqXFGw6mOZQWbziY5lBa/B+gRIE4uxygKgAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">4、合同签订</div>
+                        <div class="process_describe">
+                            规范双方权利和义务
+                        </div>
+                    </li>
+                    <li class="time_list_li" style=" left: 64%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACMklEQVRYR+2YPWsUURSGn3ezRsQgggYLRbG0kGgnIqSzSCMWamFhmcIiNoHdicIi2Vm2sxBBf0BARSzSKVqksRW/wFJQ0A12CiZk98iMuKw7rvNxZyQsc5st5pz3PPOePcO9V2zzpW3ORwno2qHSwfwdbNkFetxB7M8g/gnxDKONp3cZ8iMp0RY3bT2EMx4hXgK7sZhhEjsRezFOAjPABuIKdd13hYwC+mah6CY7aGgrdQHfZoFVYJIuM9zQ+9QaAwmjAT1lH6CmXUXcBh7g6VIxgKKWWdiYAq4DW4iF8Dd+rbPB6nDXRjsYL1hExEM8XRwUHg0o5osgiGj2wgE7AwRgXTxVkwG6/AfTvpmZ8OmEX4+husUMSVrAIN63D8DhEjCLeWHOeDvo2z3gKOI5dbX6LjWswgRHqGbYV1b5wqK+97WcHPTtFXAcWMHT5b5o0xYQtzK29SmezuYF+HcHfduHcY4Kf3y7EgGLF9T0Oh/ARBUdg5xa7Fg7Ufp4Ay7bKSaYosdnlvQmkSNpg5wcHDXFvs0BN9OyhPHGE5bk5TMkowCX7TQVrmUCFGvUFWxqfy0nB9t2iB6TVPnGojqZgOKSnADjxPN4Pn6Am+yioR95mJNIw7ePwMHk+8EKs9S0lkjcNahtx+jyFlA84O+De3D4huB24Ktr/Zj8PcCJ8BwNHTwdGIyPbvlbdh7jLjBdMNiwfHCjMU9dj/8N+J+p4splvz2IU87peQnoamTpoKuDPwFB+vApEzLifgAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">5、项目立项</div>
+                        <div class="process_describe">
+                            成立项目研发小组，进行项目需求解析会议
+                        </div>
+                    </li>
+                    <li class="time_list_li" style=" left: 80%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADUklEQVRYR+3XS0hUURzH8e9/tHETJYlGVrZIS8pWYdHCAose6iKSIgjCWiQuWlbO2GNAZsx9tHBREUFQRIukIOyhJfZYBEEvpUVFD4oKqSSuOf849w6V5r0zd2YEC89y5px7PvM7c/7nHmGSN5nkPqaAma7QVIKTJ8GYLgKuAP1Y1BORoUxxZnx2ltjB3QCKE6huLGqygcwc6OCuA3PHJJYVZGbAVi0jx07O4PoBgx0ELKAQuIlFbSZJpg8cjesjQCNxHgIvUWoRO1WDvIFFXbrI9IBtWorayc1DuIOwEZhJnBc2MCwLiGpFNpD+gUe1hDi9Ng7uEmADzTKI8/lvoPlDjkZ2YbGJiPzws7v9A6O6HeHsKJyZcTyg8/ky4lwDCohTwkF5PbHAiAbIYx259LJPvv2azA1oOrTrPIYp5qDc84PLXh30StCvaEx//0vsNqFXghkg/2Gg+a+ZFpF4SgGkm6CZ5wiKiI43j3uCMX0ABAlR4TZ41APTAaoKbTwGhgjLcr/A70AeAfLtOpespQOMaD5BPttHY1jy/ALfAHOAxYTFnLPeLR1gTMuBJ8A7wmLm+qu5L3FUuxFWI2whJBeT+VwLtdfAmG4BLqD00CJr/AFj2g7sB44Rlr0TBDwONKG00yLNfoFVQA/wHov5RMS8Qrk3v0sc0SBBXgFFBKiiWW77Azo77Kn9jic0EpKOrAJj2gSYBPsJUe6/zBhNVBsQTgIfsCgnIp9ckVGdjfAW5SktssTzx8S0ILE5ClF20SKn3Pp7nySmiAbpA1YAnZSymW0y4oFcayPDYmrb+O2c5vCcSyibgHtYrPI6DJIfdc6d4z4wA+EEC9njifSKzsF1oOwGvjBCJYfkmdeQ5EAzuk2rUftKGQQuAzsJy8ekO/vPDs6yngZq7MIs1BKSrmTPSA3oINejXACm2zsbDmNxMunudnbrLqA1cUf5ilBPSK4mw5nvUwea3s5ynwEqEw830PP2tXOER+TacPhBETksBaqBrXYpcdp9RtjBIRlIBecfaEaYjTONBgI0o5SlNJEwQJyjDHMq5bejxIP9JfinxtTJdqpQ6oizErHvxLMSXUw5Gkjc+Do5wK2U3ojG+bXpA1OKLvNOU8BMM5xK8L9P8CfLvUc4HXjrywAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">6、项目正式上线</div>
+                        <div class="process_describe">
+                            确保项目运行正常，为项目上线保驾护航
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="time-horizontal">
+                    <li class="time-horizontal_li"></li>
+                    <li class="time-horizontal_li"></li>
+                    <li class="time-horizontal_li"></li>
+                    <li class="time-horizontal_li"></li>
+                    <li class="time-horizontal_li"></li>
+                    <li class="time-horizontal_li"></li>
+                </ul>
+                <ul class="time_list">
+                    <li class="time_list_li1" style="left: -10px;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACfUlEQVRYR+2YP2gUQRSHv3cX74SoEGNUECGQoCLEwiaCFhZaWGghRFELBdEgYmGhZvdEFjS7/kNFAmKlBgyonYp2Vja2ihGMFhJBLU6bI5jL6ZPbE4MXZXd2krsrbqqFfW9+3/7ezOzMCA3epMH5aALaVqjp4Ow76GsvMAyssu3cIP81cBBXXlTnzCyxr6+ALuAp8MNAJGloGtgGvMeVnjiAP4EHuLI7qaJxnq/3gD5cScUBVGAEV/aFwfe1/IWwSypueprBk2L4fFPn0S9TxkDVCb7eBfbiyoyK/qvE04CezifDKDBJkR4yXAEOAZtRFiE8QRkkJ54VpAXgAjJ8AKZoZyV5bgN7ULYitIVDAYZw5Vh9ACslXUwWxZFvYXlbWMZpGQ+BAu1kko94UqofoJVyzOQEJR5FeRSze/swYTuw1mSS2Ism6cFgFj9EOJ5EI1GOchXYYeLg9DoYpRjoRVLc4pS8iQr97/sEYzAeYKDdKG9RzpGTM40H6GsAHAbGcGVDYwF62kKGcZQTCHeApbiSTwQ5JyX2dWd5qcZhDQEvUQJyMlIfQF87EBb+Ja7cQHiGIxcI9DLKElw5gKcpsnRGgqaZ4KR8DuOsHfT1E7C8SrSA0k1OvhDoFpRhHFZwnn7K8NHtO0U68KRgDxgldl2zFMijbAKOIHzFFScq7c97awfjKAX6GOV5uOAqQ0bjsSaAg3oUoQ9YT4qNDEj56BCv1QTwrHaRZgwo0U6r0U67JoCV2fgOmMCVdfGs+x1VM8BArwFtOLJ/LgGTn+ouaSslMuHu26QZnuoa/lzcG/5bldUmJljGGtwsWCrNdnrzdsvW0aaDTQdtHbDN/wUwfTQ4gQ1L+AAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">7、测试阶段</div>
+                        <div class="process_describe">
+                            上线测试试运行阶段，标准时间1个月
+                        </div>
+                    </li>
+                    <li class="time_list_li1" style="left: 16%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAC80lEQVRYR+2XTUhUURTHf2ekqAQtXJQFfbloUS2qTUQuwkUhUUFgkC2KwDCwwIJm3tOQct7YwqCEzCLapJAQlITQQoIyahMtrFX0CWVBRRJ9kDQn3hu154wzb3zzFIO5y/fOOfd3/+fec88VZviQGc5HHjDXDOUVDF7BmD5A2ZRrYB/+DzEkZd7UFFt6Dyj3MUFuLko/pqTMO/EebNFi4nwFFGE3YW4iorkRuLxVhRZ2odwAhBDzCcvQRPG9AN9jyJLAwJIDWfoOWJwL4FsMWeYJ2KGz+Ew3sAPooYQqDsmwp5+lb4ClUw8Y1SqE62NAyh5MsYEzj2kDtLQWuOCiOYwh7V585AFHJZpxCnZrAVXyZyyFXoDJ9v8WNgWHxNJWoA54hlKJKYOkA4xqKUIvsBpox5Cj4/Zl4HswqmsQBlyn9QymhNMCWhoDwi77tZjy1KV8wAq26Gbi3Hep0IUh1RkAO4G9Y/YhyglLfx7wf1KwE0P2ZUjxNaB6+lIc0+UoL50OJDEaMaQZS+07+JZL2Z0Y0oOlDcDpke92Z7SSiLyeuj1oR45qHSHqUAYoYD8n5Bt2nXuBXX4qgV7KOObUySYtYjaXEdYRpw1T2oIuMx8wpNTzTvVrYOkgsCiXbsZOpl2U7WIb9KhESSg66Yb1rM7lF99dey1oOHc8ZQ6F1MvPiSZJ/+yM6inEKbLJNguBwpFgr5xnQfph+64Y+W0v+GOSqaJ0YcrJdCEm9y6O6haE28A8oBlDGj2ltdQ+xfZp/oGyHVPuevq4DLIHTFxzdxw4oZWIHM96okSDUe9Ahtg67rrzCJIdYLNuJOTAFQHnU7qSbEgtPQccAYaIs40GeZSNmzdgTDeg9AHFQAcRan09Qe2npsVFhBoHUqggIo+9IDMDxnQBynOgBLhKhIO+4EYpbMgYV4ADKJ8YZhVN8iUTZDaATxD6KKNmXBfttfR0/xO3ziWUCn6zPjdAvxAB+nnvwQAn8xMqD+hHNbdPXsFcFfwLDZOUOEaGoLYAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="process_name">8、项目演示</div>
+                        <div class="process_describe">
+                            开发过程中进行三次项目演示，确保项目功能100%还原
+                        </div>
+                    </li>
+                    <li class="time_list_li1" style="left: 32%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADi0lEQVRYR+2XbYgVZRTHf/+5uVthJbpqWfhRwtxSyKg+FKUSatsGlVAIBUbRl96o3JndlQG9c3dLKkQlejGkoC0Ig8LC2krRCIwK80Pe/CRKFAS9WNl17xyZaQp1753ZvbOXNrjn23DmnOf3/M/znOd5xCQ3TXI+WoB5K9RSsKVgXgXyxtdfgyVbi7EOOD/vIDXijyPW4mprVu76gIGdIORmHGZhHMGhgDETh4MYv2UlTvWHLEQM4Wl2Vp40QKPAfKqsBPYTciEOcxDDuDqclTjVP2BzCTmAp2lZedIB4WugmpWkAX8bMDc/oMPtGL83AJAeEjILsXUiAKfRo18mHHDCSuzwPwYs2nJgBr16PVb4LStQZgV9epfA1uBwiB7tral+0xUM7FbgNRy66dGeGKJk92M8gqdOArsNeDXxj4ZsKmDJFmF8hujC1Ucx3KBdQJUy4l5c7UqA78J4BbgaT+UzlGwq4Ebr4C/24LALV4/GAwdWBK7EU1f87ZtDGy8DV1GgmxE6OckwvirxUjhMN7Ctebu4aJfg8AnGNipsZAo/EHI9/fruNOBbMDYhnkl66feIYxgdwGXAxYTcEa/ZFEtv1Gm7OLCZVJlOvw7h27n4OvHvOAN2BXCUkH0Yz3KSIdpZHfuN6IQaYoTliOfwdGlzALOa4yZr5zgHEQ/i6uNRvwd2HfAmFeadMbmzfmxcwSzAwB4HVuKyFMnYYF04XIv4EldvJxvpPWAfrkr10qVdt8oYfwAjWSw1/BcBsxFLcLWfwB4CXOANYBXiBVwNMmCdhHwKDONpVa1x6gP6Np0pLMKp8/IL6Ud8gXh/VGLjQ6ADTz8lm+YbxGNxWwrsRsRLuJoX+6KuUOFHPDnjA8ySLbCjVFkSb5KzLbA/EffgakfsKtru6KyhV1uShv4Anq5J4FcAO/DUnh9w0OZQxQei2d8Ql6a2LQaiMt+Hp+2UbDFG1E6im9EMoBtPuynZ3RhPI9bj6sX8gIF9jvEV8A5O5j3xcoynqLAAX7/i21TOYT4jlPH1c/zdxgHgYTxFm6Wmje1dHFh0fC3LqnpNv7GUXo1Wumg3ITbjKeqZdW1sgFEjbue8cQMaHyC+BbZjPAkUgBDxPMadyTm9MD/guMmSgL/XbHTUdSGiXneEMH7X9AE7CXmCPh377wAbndhpcWMr8QQM1GiKFmCjyv0T11KwpWBeBfLGT/o1eAqmKVU4BiJPzwAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">9、代码编写</div>
+                        <div class="process_describe">
+                            开发人员分工协作，项目经理把控项目流程及规范
+                        </div>
+                    </li>
+                    <li class="time_list_li1" style="left: 48%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAABLklEQVRYR+2XTU7DQAxGnyU4Rk/ATbhJEd1WMN2UzdCuKliVk3ARbsAxKLgqIhCVpONmgjpBzjLjcV4+/8gWCn+kcD4cMDdCruDpFYz6CIyBsxrMBlgTZFIC4NseXMX0TpA6dCfW/ByMqp9fDvLjq+ldJzx6aDMO2FH672sDULD4Iim8zVSxjnoD3AMLgtzmZk51P7/NOGBfsThZiBd6wQfPwKivfwFeUS6ZyUvKZzoHo06BZcrR0efKHTOZp+5ZAG3VaQ2x1e6L3AF/hdAVbMtqqzJWu+HnoHXXsNutgOtjd5f2Ko7aNkZtCHJemwdt41a7v4O7yyFA265hHVitdns57oC5q8GgFSy+SGy7hr3NPABXDW3miSC79tP4pIeF1Dz0x+cOmCuwK/jvFdwCuSUMOJyXdvQAAAAASUVORK5CYII="
+                            alt="">
+                        <div class="process_name">10、项目架构搭建</div>
+                        <div class="process_describe">
+                            根据需求进行项目框架设计，做好基础建设
+                        </div>
+                    </li>
+                    <li class="time_list_li1" style="left: 64%;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADUklEQVRYR+3XS2xMURzH8e9/WtONIKQVRS28GmollXRRkhKP1kIqRCIRLIiFJTrTlkmambZ7sbDQRiQSIhYaEkE947WQSFBtLBCPEEQ8Ired+cs5d4LSe2fuzEhKepYz59zzub9zz//eI4zyJqPcxxgw3xUaS3D0JJjQecA5oB+H9cTka744M74wS+zieoHyNOoKDvWFQOYPdHGXgOm/JVYQZH7ANp1LkU3O4PoBg/0IOEApcBmHhnySzB04HHeTEDtJcR94htKA2FQNsheHtbkicwO26xzUJjcD4RbCamAiKZ5aYFRmEdeqQiCDAzu0ghQ3LA5uE2IVTfIR9/efQPNADkdewGENMRkKsruDA+O6CeH4MJyZcSSg+/siUlwEppCighZ58XeBMQ1RwgqKucEe+fJjMi+g6dCpMxiknBa5EwRXuDrol2BQ0W/9gy+x14R+CeaB/IeB5lkzLSaprALINUEzzwEUER1pHu8EE3oPCBOhymvwsAvmAlQV2nkIfCUqi4MCvwElhJhk61ymlgswppMI88G+GqNSEhT4EpgGzCcq5j3r33IBJrQSeAS8Jipmrj+a9xLH9QrCUoRGInI6k8+zUPsNTGgjcArlKs2yLBgwoZ3AXuAgUdn9l4CHgF0onTRLU1BgLXAVeIPDTGJiPqG8W9AljmmYMM+BMkLU0iTXgwHdHdZnv/GEnUTkcEGBCd0FmAT7iVAZvMwYTVy3InQBb3GoJCbvPZFxnYrwCqWPZlngezMJnZLeHKUo22iWbq/+/m8SU0TD3ASWAD3MYR0bJemDXG6RUTG1beR2Qot4whmUNcAdHGr8XgaZX3XumeMuMAHhCLPZ4Yv0i87FHUbZDnwiSTWt8thvSGagGd2udag9UoaBs8AWovIu487+tYO7rEeBeluYhQYiciHTNbIDusiVKKeA8XZnw34cujLubne3bgPa0meUzwjricj5TDjzf/ZA09td7mNAdfriBnrSHjuTPKDYwmGIMopYCNQBG2wpcdtdkmymVQaywQUHmhFm44xjKyGaUOZmNZEwQIoOBunO+usofeFgCf6qMXWyk1qS9pmqQeyZeHK6iylHA+kTXw/7uJbVF9EId5s7MKvo8u80Bsw3w7EE//sEvwOqcUY4hPgULgAAAABJRU5ErkJggg=="
+                            alt="">
+                        <div class="process_name">11、项目维护</div>
+                        <div class="process_describe">
+                            围绕项目正常运行，而进行服务器、网络维护，定期清理垃圾文件等
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="yd">
+                <img src="../image/process.png" style="width: 100%;" alt="">
+            </div>
+        </div>
+
+        <!-- 问题解答 -->
+        <div style="width: 100vw;background-color: #F7F8FB;">
+            <div class="df ai_c jc_c" style="padding: 100px 0; background-image: url(../img/company_bg.jpg);">
+                <div class="wt70 df fd_c">
+                    <div class="trend">
+                        <div class="swiper-slide">
+                            <ul class="trend_box_itemlist flex_warp" id="trend">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 提交需求 -->
+        <section class="sectioncontent">
+            <div class="bg">
+                <div class="warp1 container">
+                    <div class="title_font" f18>提交需求，获得产品咨询与报价</div>
+                    <div class="inp_box row">
+                        <input class="inputone col-lg-3 col-md-3 col-sm-3" type="text" placeholder="您的姓名：">
+                        <input class="inputtwo col-lg-3 col-md-3 col-sm-3" type="number" placeholder="联系电话：（座机无需区号）">
+                        <input class="inputthree col-lg-4 col-md-4 col-sm-4" type="text" placeholder="一句话描述您的需求：">
+                        <button class="tijiaobutton col-lg-2 col-md-2 col-sm-2"><span>提交</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--底部栏-->
+        <div class="bottom-bar pc">
+            <div class=" flex-box">
+                <div class="flex-1 service-list">
+                    <div style="color:white;margin: 0px 0px 36px 0px;">商城类开发</div>
+                    <div>APP商城开发</div>
+                    <div>PC商城开发</div>
+                    <div>微信商城开发</div>
+                </div>
+                <div class="flex-1 service-list">
+                    <div style="color:white;margin: 0px 0px 36px 0px;">政企类开发</div>
+                    <div>官网定制开发</div>
+                    <div>微信公众号开发</div>
+                    <div>业务管理软件开发</div>
+                    <div>政务类软件开发</div>
+                </div>
+                <div class="flex-1 service-list">
+                    <div style="color:white;margin: 0px 0px 36px 0px;">教育平台开发</div>
+                    <div>教育直播平台开发</div>
+                    <div>教育咨询平台开发</div>
+                    <div>在线学习平台开发</div>
+                    <div>教育内部管理系统开发</div>
+                </div>
+                <div class="flex-1 service-list">
+                    <div style="color:white;margin: 0px 0px 36px 0px;">制造类开发</div>
+                    <div>ERP系统开发</div>
+                    <div>CRM系统开发</div>
+                    <div>在线学习平台开发</div>
+                    <div>工厂定制开发</div>
+                </div>
+                <div class="flex-1 service-list">
+                    <div style="color:white;margin: 0px 0px 36px 0px;">运营类开发</div>
+                    <div>直播平台</div>
+                    <div>资讯软件</div>
+                    <div>医疗软件</div>
+                    <div>物联网</div>
+                    <div>管理系统</div>
+                </div>
+                <div class="flex-1 service-list">
+                    <div class="flex-box">
+                        <div style="margin-right:10px;"><img src="../image/time.png" style="width:15px;height:15px;" />
+                        </div>
+                        <div><span class="info-time"></span></div>
+                    </div>
+                    <div class="flex-box">
+                        <div style="margin-right:10px;"><img src="../image/location.png"
+                                style="width:15px;height:15px;" />
+                        </div>
+                        <div><span class="info-location"></span></div>
+                    </div>
+                    <div class="flex-box">
+                        <div style="margin-right:10px;"><img src="../image/phone.png" style="width:20px;height:20px;" />
+                        </div>
+                        <div><span class="info-phone"></span></div>
+                    </div>
+                </div>
+            </div>
+            <!--版权部分-->
+
+        </div>
+        <div class="bottom yd">
+            <img src="../images/malinsu.png" alt="">
+            <div>
+                <div>
+                    联系电话：<span class="info-phone"></span>
+                </div>
+                <div>工作时间：7*24小时</div>
+            </div>
+            <div>公司地址：<span class="info-location"></span></div>
+        </div>
+        <div class="bottom-bar2">
+            <div f14>友情链接</div>
+            <div f14 style="margin:8px 0px 0px 0px;">版权所有：<span class="copyright" f12
+                    style="margin:0px 14px 0px 0px;"></span>备案号：<span class="ICP" f12></span></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+<script>
+    $(function () {
+        let menus = [];
+        let api = "http://mlsadm.mlscd.cn/api/";
+        /*导航菜单*/
+        $.ajax({
+            url: `${api}classList`,
+            type: 'GET',
+            success: function (res) {
+                console.log('结果：', res.data);
+                menus = res.data;
+                let html;
+                res.data.map((item, index) => {
+                    html =
+                        `<div class="flex-center menu" style="margin-left:70px;" data-id=${item.id}>${item.title}</div>`;
+                    if (index === 1) {
+                        html =
+                            `<div class="flex-center menu blue" style="margin-left:70px;" data-id=${item.id}>${item.title}<div class="select-menu"></div></div>`;
+                    }
+                    $('.menus').append(html);
+                });
+                //添加电话
+                html =
+                    `<div class="flex-center blue" style="margin-left:70px;"><img src="../image/cellphone.png" style="height:25px;width:25px;"/><span class="cellphone"></span></div>`;
+                $('.menus').append(html);
+            }
+        });
+        /*导航菜单悬浮,显示二级选项*/
+        let oldId = "";
+        $('body').on('mouseover', '.menu', function () {
+
+            let id = $(this).attr('data-id');
+            //如果切换到下一个菜单，重新刷新
+            if (oldId != id) {
+                oldId = id;
+                $('.float-menus').addClass("hide");
+                let timeoutId = setTimeout(() => {
+                    menus.map(item => {
+                        if (item.id == id) {
+                            // console.log(item.list);
+                        }
+                    });
+                    //显示二级菜单
+                    $('.float-menus').removeClass("hide");
+                    clearTimeout(timeoutId);
+                }, 200);
+
+            }
+
+        });
+        $('body').on('mouseover', '.float-menus', function () {
+            //隐藏二级菜单
+            $('.float-menus').removeClass("hide");
+        });
+        $('body').on('mouseleave', '.float-menus', function () {
+            //隐藏二级菜单
+            $('.float-menus').addClass("hide");
+            oldId = "";
+        });
+        /*二级菜单鼠标悬浮移开*/
+        $('body').on('mouseover', '.list-item', function () {
+            $(this).find('.animate').stop();
+            $(this).find('.animate').animate({
+                width: '100%'
+            }, 'slow');
+        });
+        $('body').on('mouseleave', '.list-item', function () {
+            $(this).find('.animate').stop();
+            $(this).find('.animate').animate({
+                width: '30px'
+            }, 'slow');
+        });
+        /*底部版权*/
+        $.ajax({
+            url: `${api}bottominfo`,
+            type: 'GET',
+            success: function (res) {
+                console.log('底部栏：', res.data);
+                let data = res.data;
+                //
+                $('.info-time').html(data.web_work_time);
+                $('.info-location').html(data.web_address);
+                $('.info-phone').html(data.web_tel);
+                $('.cellphone').html(data.web_tel);
+                //版权，备案号
+                $('.copyright').html(data.web_copyright);
+                $('.ICP').html(data.web_beian);
+            }
+        });
+    });
+</script>

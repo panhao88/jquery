@@ -1,0 +1,178 @@
+/* 文本不换行 自动省略 */
+
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*设置弹性盒子垂直水平居中*/
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*设置弹性盒子子元素水平居中*/
+
+.flex-j-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*设置弹性盒子垂直居中 水平最后*/
+
+.flex-j-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.flex-w{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-aroud {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*设置弹性盒子子元素垂直居中*/
+
+.flex-a-center {
+    display: flex;
+    align-items: center;
+}
+
+
+/*设置弹性盒子子元素垂直居中 aroud*/
+
+.flex-a-aroud {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-a-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*设置弹性盒子*/
+
+.flex {
+    display: flex;
+}
+
+
+/*设置弹性盒子水平水平方向布局*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*设置弹性盒子垂直方向布局*/
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 相对地址 */
+
+.pos-re {
+    position: relative;
+}
+
+
+/* 绝对地址 */
+
+.pos-ab {
+    position: absolute;
+}
+
+
+/*去除input框的边框*/
+
+.ips-none {
+    border: none;
+    outline: none;
+}
+
+
+/* 句柄 */
+
+.cur {
+    cursor: pointer;
+}
+
+
+/*圆角*/
+
+.border-5 {
+    border-radius: 5px;
+}
+
+.border-50 {
+    border-radius: 50%;
+}
+
+
+/*红色边框*/
+
+.red-border {
+    border: 1px solid red;
+}
+
+
+/*绿色边框*/
+
+.green-border {
+    border: 1px solid green;
+}
+
+
+/*蓝色边框*/
+
+.blue-border {
+    border: 1px solid blue;
+}
+
+
+/*设置子元素的比例*/
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-6 {
+    flex: 6;
+}
